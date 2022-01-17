@@ -118,6 +118,7 @@ const btn = document.querySelector('.talk');
 		    const finalText =
 			Bye[Math.floor(Math.random() * Bye.length)];
 		   speech.text = finalText;
+		   window.close(this);
 	     }
             speech.volume = 1;
             speech.rate = 1;
