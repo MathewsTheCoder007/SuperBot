@@ -122,7 +122,7 @@ const btn = document.querySelector('.talk');
 		if (message.includes('close')) {
 		    window.close(this);
 	     }
-		if(message.includes(SuperBot)) {
+		if(message.includes(uperbot)) {
 			window.open('https://mathewsthecoder007.github.io/SuperBot/');
 		}
             speech.volume = 1;
