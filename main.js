@@ -118,8 +118,13 @@ const btn = document.querySelector('.talk');
 		    const finalText =
 			Bye[Math.floor(Math.random() * Bye.length)];
 		   speech.text = finalText;
-		   window.close(this);
 	     }
+		if (message.includes('close')) {
+		    window.close(this);
+	     }
+		if(message.includes(SuperBot)) {
+			window.open('https://mathewsthecoder007.github.io/SuperBot/');
+		}
             speech.volume = 1;
             speech.rate = 1;
             speech.pitch = 1;
